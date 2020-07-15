@@ -56,12 +56,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Pantent.cs" />
+    <Compile Include="Attrib\ESConfAttribute.cs" />
+    <Compile Include="Entity\Patent.cs" />
     <Compile Include="ESHelper.cs" />
+    <Compile Include="ES\ESClientFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

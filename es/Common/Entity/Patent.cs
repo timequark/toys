@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sample.Common.Attrib;
 
 namespace Sample.Common.Entity
 {
-    public class Pantent
+    [ESConfAttribute(esTag = "es1", indexName = "mall_patent", typeName ="all")]
+    public class Patent
     {
         public string id { get; set; }
         public string patentType { get; set; }
