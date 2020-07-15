@@ -1,0 +1,17 @@
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Sample.Common.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Sample.Common.pdb
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Elasticsearch.Net.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Nest.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\System.Buffers.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Elasticsearch.Net.xml
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Nest.xml
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\System.Buffers.xml
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\PJ\githuo.io\toys\es\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\PJ\githuo.io\toys\es\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\PJ\githuo.io\toys\es\Common\obj\Debug\Common.csproj.CopyComplete
+D:\PJ\githuo.io\toys\es\Common\obj\Debug\Sample.Common.dll
+D:\PJ\githuo.io\toys\es\Common\obj\Debug\Sample.Common.pdb
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Newtonsoft.Json.dll
+D:\PJ\githuo.io\toys\es\Common\bin\Debug\Newtonsoft.Json.xml
