@@ -1,6 +1,0 @@
-D:\PJ\githuo.io\toys\es\Entity\bin\Debug\Sample.Entity.dll
-D:\PJ\githuo.io\toys\es\Entity\bin\Debug\Sample.Entity.pdb
-D:\PJ\githuo.io\toys\es\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
-D:\PJ\githuo.io\toys\es\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
-D:\PJ\githuo.io\toys\es\Entity\obj\Debug\Sample.Entity.dll
-D:\PJ\githuo.io\toys\es\Entity\obj\Debug\Sample.Entity.pdb
