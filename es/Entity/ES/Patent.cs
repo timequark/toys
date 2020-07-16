@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sample.Common.Attrib;
+using Sample.Entity.Attrib;
 
-namespace Sample.Common.Entity
+namespace Sample.Entity.ES
 {
     [ESConfAttribute(esTag = "es1", indexName = "mall_patent", typeName ="all")]
     public class Patent

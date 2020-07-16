@@ -18,3 +18,5 @@ D:\PJ\githuo.io\toys\es\Tests\obj\Debug\Tests.exe
 D:\PJ\githuo.io\toys\es\Tests\obj\Debug\Tests.pdb
 D:\PJ\githuo.io\toys\es\Tests\bin\Debug\Newtonsoft.Json.dll
 D:\PJ\githuo.io\toys\es\Tests\bin\Debug\Newtonsoft.Json.xml
+D:\PJ\githuo.io\toys\es\Tests\bin\Debug\Sample.Entity.dll
+D:\PJ\githuo.io\toys\es\Tests\bin\Debug\Sample.Entity.pdb
