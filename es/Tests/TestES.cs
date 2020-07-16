@@ -19,6 +19,10 @@ namespace Tests
             testCatIndices();
             testGetDoc(DOC_ID);
             testSearchDoc(DOC_ID);
+            testMatch("物流码放架");
+            testMatchPhrase("物流码放架");
+            testMatchPhrase("Zigbee");
+            
         }
 
         private static void testCatIndices()
@@ -42,7 +46,27 @@ namespace Tests
         {
             ElasticClient esClient = ESClientFactory.newClient<Patent>();
 
-            var resp = esClient.Search<Patent>(e => e.Query(f => f.Match(m => m.Field(t => t.id).Query(id))));
+            var resp = esClient.Search<Patent>(e => e.
+                                                Query(f => f.
+                                                    Match(m => m.
+                                                        Field(t => t.
+                                                                id).Query(id))));
+            Console.WriteLine();
+        }
+
+        private static void testMatch(string phrase)
+        {
+            ElasticClient esClient = ESClientFactory.newClient<Patent>();
+
+            var resp = esClient.Search<Patent>(e => e.Query(f => f.Match(m => m.Field(t => t.summary).Query(phrase))).Size(15));
+            Console.WriteLine();
+        }
+
+        private static void testMatchPhrase(string phrase)
+        {
+            ElasticClient esClient = ESClientFactory.newClient<Patent>();
+
+            var resp = esClient.Search<Patent>(e => e.Query(f => f.MatchPhrase(m => m.Field(t => t.summary).Query(phrase))).Size(15));
             Console.WriteLine();
         }
     }
